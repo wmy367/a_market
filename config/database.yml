@@ -1,0 +1,20 @@
+
+default:
+    adapter: sqlite3
+    database: /home/young/work/ruby/stock/db/database.sqlite3
+    pool: 5
+    timeout: 5000
+
+
+development:
+    adapter: sqlite3
+    database: /home/young/work/ruby/stock/db/database.sqlite3
+    pool: 5
+    timeout: 5000
+    
+
+test:
+    adapter: sqlite3
+    database: /home/young/work/ruby/stock/db/test_database.sqlite3
+    pool: 5
+    timeout: 5000
